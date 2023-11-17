@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*parte do titulo*/
+body{
+    background-color: rgb(196, 189, 189);
+}
+.titulo{
+    background-color: rgb(230, 224, 224);
+    border: 2px solid black;
+    margin: 21px;
+    border-radius: 8px;
+}
+.titulo h1, h2{
+    display: block;
+    text-align: center;
+    margin: 1%;
+}
+.titulo h1{
+    text-decoration: underline;
+    color: rgb(133, 16, 16);
+}
+.titulo h2{
+    text-decoration: underline;
+    color: rgb(133, 16, 16);
+
+}
+/*parte da informação*/
+.info{
+    border: 2px solid black;
+    margin: 10px 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-style: italic;
+    box-shadow: 3px 3px 15px black;
+}
+.info2{
+    border: 2px solid black;
+    margin: 10px 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-style: italic;
+    box-shadow: 3px 3px 15px black;
+}
+.info2 a{
+    font-weight: bold;
+    background-color: rgb(209, 151, 151);
+    color: darkred;
+    padding: 2px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.link{
+    font-weight: bold;
+}
+.paises{
+    margin: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 3px 3px 15px black;
+}
+.img{
+    height: 300px;
+    width: 300px;
+    display: inline;
+    margin-left: 15%;
+}
+img{
+    cursor: pointer;
+}
